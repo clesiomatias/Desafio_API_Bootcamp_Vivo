@@ -1,8 +1,8 @@
 from typing import Annotated, Optional
+
 from pydantic import Field, PositiveFloat
 from workout_api.categorias.schemas import CategoriaIn
 from workout_api.centro_treinamento.schemas import CentroTreinamentoAtleta
-
 from workout_api.contrib.schemas import BaseSchema, OutMixin
 
 
